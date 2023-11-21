@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>To-do List - Refatorando</title>
+        <link rel="icon"
+            href="https://cache.refatorando.com/wp-content/uploads/2023/05/Favicon_Refatorando-1-100x100.png"
+            type="image/x-icon">
+        <link rel="stylesheet" href="public/css/styles.css">
+    </head>
+    <body>
+        <img src="public/images/header.png" alt="">
+        <div id="container">
+            <div class="header">
+                <h1>To-Do List</h1>
+                <img class="dark-mode" src="public/images/moon.svg" alt="">
+            </div>
+            <form>
+                <input name="addTodo" type="text" class="add-todo" placeholder="insira o todo aqui... " autofocus>
+            </form>
+            
+            <div class="list-todos">
+                <!-- <div class="item">
+                    <input class="checkbox" type="checkbox">
+                    <h4 class="item-list">Academia</h4>
+                </div> -->
+            </div>
+            <div id="footer">
+                <ul>
+                    <li class="items-todos">0 items restantes</li>
+                    <li>Todos</li>
+                    <li>Ativos</li>
+                    <li class="items-finish">Concluídos</li>
+                    <li class="clear">Limpeza completa</li>
+                </ul>
+            </div>
+        </div>
+
+        <script src="public/js/app.js"></script>
+    </body>
+</html>

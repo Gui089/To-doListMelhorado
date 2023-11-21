@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E3E7EE;
+}
+
+.hidden {
+   display: none;
+}
+
+.list-todos {
+    margin-top: 40px;
+}
+
+#container {
+    /* border: red solid 1px; */
+    width: 478px;
+    height: 483px;
+    position: absolute;
+    top: 35%;
+    left: 40%;
+}
+
+.dark-mode {
+    cursor: pointer;
+}
+
+.header {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Ubuntu';
+    margin-left: 30px;
+}
+
+.add-todo {
+    width: 475px;
+    height: 68px;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.item {
+    display: flex;
+    background-color: white;
+    width: 475px;
+    height: 65px;
+    font-family: 'Ubuntu';
+    color: #313d4e;
+    border-bottom: 1px  solid rgb(189, 189, 189);
+    align-items: center;
+}
+
+.item-list{
+    font-size: 22px;
+    margin-left: 20px;
+}
+
+.checkbox {
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    border: none;
+    background-color:#D1D5DB;
+    cursor: pointer;
+}
+
+
+.footer, ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Ubuntu';
+    background-color: white;
+    width: 475px;
+    height: 56px;
+    align-items: center;
+}
+
+li {
+    cursor: pointer;
+}
